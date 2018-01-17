@@ -18,4 +18,5 @@ members = [
   "sgx_tunittest",
   "sgx_types",
   "sgx_urts",
+  "third_party/*",
 ]
