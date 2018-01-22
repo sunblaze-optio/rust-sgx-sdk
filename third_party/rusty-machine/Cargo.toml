@@ -19,6 +19,7 @@ datasets = []
 num = { path = "../num" , default-features = false }
 sgx_rand = { path = "../../sgx_rand"}
 sgx_tstd = { path = "../../sgx_tstd"}
-rulinalg = { path = "../rulinalg" }
+rulinalg = { git = "https://github.com/ekiden/rust-sgx-sdk" }
+# rulinalg = { path = "../rulinalg" }
 serde = { git = "https://github.com/ekiden/serde.git" }
 serde_derive = "1.0.27"
