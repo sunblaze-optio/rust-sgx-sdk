@@ -20,7 +20,7 @@ bench = false
 
 [dependencies]
 csv-core = { path = "csv-core", version = "0.1.3" }
-serde = { path = "../serde-rs/serde/serde" }
+serde = { git = "https://github.com/ekiden/serde" }
 sgx_tstd = { path = "../../sgx_tstd" }
 
 [dev-dependencies]
