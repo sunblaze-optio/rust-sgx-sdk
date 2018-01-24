@@ -14,10 +14,8 @@ stdio = []
 build_helper = { path = "../build_helper" }
 
 [dependencies]
+libc = { git = "https://github.com/rust-lang/libc" }
 sgx_types = { path = "../sgx_types" }
 sgx_trts = { path = "../sgx_trts" }
 sgx_alloc = { path = "../sgx_alloc" }
 sgx_tprotected_fs = { path = "../sgx_tprotected_fs" }
-
-[dependencies.libc]
-git = "https://github.com/rust-lang/libc"
