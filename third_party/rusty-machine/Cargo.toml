@@ -1,5 +1,5 @@
 [package]
-name = "rusty-machine"
+name = "rusty-machine-sgx"
 version = "0.5.4"
 authors = ["AtheMathmo"]
 
@@ -11,6 +11,9 @@ categories = ["science"]
 readme = "README.md"
 license = "MIT"
 
+[lib]
+name = "rusty_machine"
+
 [features]
 stats = []
 datasets = []
@@ -20,6 +23,5 @@ num = { path = "../num" , default-features = false }
 sgx_rand = { path = "../../sgx_rand"}
 sgx_tstd = { path = "../../sgx_tstd"}
 rulinalg = { git = "https://github.com/ekiden/rust-sgx-sdk" }
-# rulinalg = { path = "../rulinalg" }
-serde = { git = "https://github.com/ekiden/serde.git" }
+serde-sgx = { git = "https://github.com/ekiden/serde.git" }
 serde_derive = "1.0.27"
