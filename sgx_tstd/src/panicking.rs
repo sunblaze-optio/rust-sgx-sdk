@@ -29,6 +29,8 @@
 //! Implementation of various bits and pieces of the `panic!` macro and
 //! associated runtime pieces.
 
+#![no_std]
+
 use sgx_trts::rsgx_abort;
 use thread;
 use core::mem;

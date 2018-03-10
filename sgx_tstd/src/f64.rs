@@ -27,6 +27,7 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #![allow(missing_docs)]
+#![no_std]
 
 use core::num;
 use core::intrinsics;
